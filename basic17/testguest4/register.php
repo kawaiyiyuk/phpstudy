@@ -28,18 +28,26 @@ require dirname(__FILE__).'/includes/common.inc.php';
 <div class="register_wrap">
     <div class="register">
         <h2>会员注册</h2>
-        <form action="post.php" method="post">
+        <form action="post.php" method="post" class="form">
             <h3>请认真填写以下内容</h3>
-            <ul>
-                <li>用户名 <input type="text" name="usename" class="text"></li>
-                <li>密码 <input type="password" name="password" class="text"></li>
-                <li>确认密码 <input type="password" name="notpassword" class="text"></li>
-                <li>密码提示 <input type="text" name="passt" class="text"></li>
-                <li>密码回答 <input type="text" name="passd" class="text"></li>
-                <li>性别 <input type="radio" name="sex" class="radio" value="nan" checked>男
+            <dl>
+                <dd><label for="usename">用户名:</label><input type="text" name="usename" class="text"></dd>
+                <dd><label for="password">密码:</label><input type="password" name="password" class="text"></dd>
+                <dd><label for="notpassword">确认密码:</label><input type="password" name="notpassword" class="text"></dd>
+                <dd><label for="passt">密码提示:</label><input type="text" name="passt" class="text"></dd>
+                <dd><label for="passd">密码回答:</label><input type="text" name="passd" class="text"></dd>
+                <dd><label for="sex">性别:</label><input type="radio" name="sex" class="radio" value="nan" checked>男
                     <input type="radio" name="sex" class="radio" value="nv">女
-                </li>
-            </ul>
+                </dd>
+                <dd class="face">
+                    <img src="./face/m01.gif" alt="" >
+                </dd>
+                <dd><label for="email">电子邮箱:</label><input type="text" name="email" class="text"></dd>
+                <dd><label for="qq">QQ:</label><input type="text" name="qq" class="text"></dd>
+                <dd><label for="url">主页地址:</label><input type="text" name="url" class="text"></dd>
+                <dd><label for="yzm">验证码:</label><input type="text" name="yzm" class="text"></dd>
+
+            </dl>
         </form>
     </div>
 </div>
