@@ -1,0 +1,15 @@
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+dl dd {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding-bottom: 20px;
+}

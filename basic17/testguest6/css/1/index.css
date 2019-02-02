@@ -1,0 +1,40 @@
+
+.clearfix:after{
+    content: "020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.content-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.content .content-left  {
+     width: 460px;
+ }
+
+.content .content-left .top   {
+    height: 300px;
+    border: 2px solid #cccccc;
+}
+.content .content-left .top h2 ,
+.content .content-left .bottom h2,
+.content .content-right h2{
+    background-color: #eeeeee;
+    font-size: 16px;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.content .content-left .bottom   {
+    height: 300px;
+    border: 2px solid #cccccc;
+}
+.content .content-right {
+    width: 720px;
+    border: 2px solid #cccccc;
+    height: 604px;
+}
+
